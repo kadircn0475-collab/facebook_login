@@ -113,20 +113,19 @@ body {
 }
 
 .sifre-kapsayici {
-    /* Burası ÖNEMLİ: Kapsayıcıyı ortalayın */
+    
     text-align: center;
     padding: 10px 0;
-    /* Butonlarla arasına boşluk bırakmak için */
+    
     border-bottom: 1px solid #ccc;
-    /* Görseldeki ince çizgiyi ekler */
+    
     margin: 10px 0;
 }
 
 .sifre-buton {
-    /* Bu öğe satır içi (inline) kalabilir */
     text-decoration: none;
     color: #1877f2;
     font-weight: 100;
     font-size: 14px;
-    /* Kendi başına text-align: center komutuna ihtiyaç duymaz. */
+   
 }
