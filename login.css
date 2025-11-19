@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F0F2F5;
+}
+
+.kapsayıcı {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+
+
+
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+
+
+
+}
+
+.sol-alan {
+    width: 450px;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+
+}
+
+.acıklama {
+    font-size: 30px;
+    line-height: 32px;
+    color: #1c1e21;
+
+}
+
+.sag-alan {
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+
+}
+
+.form-kutusu {
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: black;
+
+    width: 396px;
+    padding: 2rem;
+
+    display: block;
+
+
+}
+
+.input {
+    font-size: 16px;
+    padding: 1rem;
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: gray 1PX solid;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.giris-button {
+
+    background-color: #0866ff;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 6px 0;
+
+
+}
+
+.kayit-buton {
+    background-color: #42b72a;
+    color: white;
+    display: block;
+    width: 50%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 6px 25%;
+
+
+
+
+}
+
+.sifre-kapsayici {
+    /* Burası ÖNEMLİ: Kapsayıcıyı ortalayın */
+    text-align: center;
+    padding: 10px 0;
+    /* Butonlarla arasına boşluk bırakmak için */
+    border-bottom: 1px solid #ccc;
+    /* Görseldeki ince çizgiyi ekler */
+    margin: 10px 0;
+}
+
+.sifre-buton {
+    /* Bu öğe satır içi (inline) kalabilir */
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: 100;
+    font-size: 14px;
+    /* Kendi başına text-align: center komutuna ihtiyaç duymaz. */
+}
